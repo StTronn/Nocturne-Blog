@@ -12,4 +12,3 @@ description: "This article is too!"
 
 #### Life is too short for bullshit
 
-This article is inspired by famous [paul grahm]("http://www.paulgraham.com/vb.html") essay and many other things that happened to me this year.
