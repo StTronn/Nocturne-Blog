@@ -11,4 +11,3 @@ description: "This article is too!"
 #### be like a beginner and try to savour every moment and person
 
 #### Life is too short for bullshit
-
