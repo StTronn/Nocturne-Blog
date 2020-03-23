@@ -15,14 +15,14 @@ Well you need to look into some topics in order to get started . I didn't get th
 ### Web Audio Api
 This basically enables you to control nearlly every aspect of music that you can possibly imagine in a nice and easy way. This abstracts all the audio engineering stuff and provides with a nice and simple graph based abstraction.
 
-Great place to get started is the beloved [mdn docs]('https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API') there is also a [repo]('https://github.com/mdn/webaudio-examples/') were all the examples code is provided.
+Great place to get started is the beloved [mdn docs](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) there is also a [repo](https://github.com/mdn/webaudio-examples/) were all the examples code is provided.
 
-If you want to look into a more comprehensive guide you can look at this [book]('https://smus.com/webaudio-book/') by boris smus.
+If you want to look into a more comprehensive guide you can look at this [book](https://smus.com/webaudio-book/) by boris smus.
 
-There is this [video]('https://www.youtube.com/watch?v=56spBAgOYfg') which is also great.
+There is this [video](https://www.youtube.com/watch?v=56spBAgOYfg) which is also great.
 
 ### Canvas
-This could help you to add a extra flavour to your project. You don't need to be good at this just some hands on basic stuff would do the trick. [mdn]('https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API') again is your friend here. This [tutorial]('https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial') covers all of the major aspects required.
+This could help you to add a extra flavour to your project. You don't need to be good at this just some hands on basic stuff would do the trick. [mdn](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) again is your friend here. This [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) covers all of the major aspects required.
 
 ## Projects 
 Finally the fun stuff. The possibilties are endless here are some which could serve as an inspiration.
