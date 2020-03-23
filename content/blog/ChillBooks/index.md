@@ -15,6 +15,7 @@ This book won Pulitzer Prize so that's says a lot. It follows engineers at Data 
 
 ## Code: The Hidden Language of Computer Hardware and Software
 by Charles Petzold
+
 This is one of my favourite. This kind of answered my great and troubling question of how computers work and were made. Well the books start from morse code (which is  super cool if you don't know) to telegram and then gates to finally a kind of working computer. The explanation is clear and author does not smatter but rather explains things at a good detail level. 
 
 ## Life 3.0
