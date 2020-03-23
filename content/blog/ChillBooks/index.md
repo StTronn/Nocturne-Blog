@@ -1,7 +1,7 @@
 ---
 title: Chill Out Books for Software Dev  
 date: "2020-03-23T22:12:03.284Z"
-description: "Some great software books which can don't require to much notes :)"
+description: "Some great software books which don't require to much notes :)"
 ---
 ![alt image](./pic1.jpg)
 
