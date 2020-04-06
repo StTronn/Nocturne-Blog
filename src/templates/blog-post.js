@@ -12,6 +12,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    console.log(next.fields.slug,next.fields.slug!=="/about/" );
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -60,14 +61,14 @@ class BlogPostTemplate extends React.Component {
             }}
           >
             <li>
-              {previous && (
+              {previous && previous.fields.slug!=="/about/" &&(
                 <Link to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
-              {next && (
+              {next && next.fields.slug!=="/about/" && (
                 <Link to={next.fields.slug} rel="next">
                   {next.frontmatter.title} →
                 </Link>

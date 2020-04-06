@@ -7,6 +7,21 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 class BlogIndex extends React.Component {
+  constructor(props){
+    super(props);
+    this.state={
+      search:""
+    }
+  }
+  searchFilter = ({node})=>{
+    let {search}=this.state;
+    if (search==="")
+      return true;
+    else if (node.frontmatter.title.toLowerCase().includes(search)) return true;
+      else return false; 
+
+  }
+
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
@@ -16,7 +31,7 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
-        {posts.map(({ node }) => {
+        {posts.filter(this.searchFilter).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <article key={node.fields.slug}>
