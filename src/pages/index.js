@@ -19,18 +19,22 @@ class BlogIndex extends React.Component {
       return true;
     else if (node.frontmatter.title.toLowerCase().includes(search)) return true;
       else return false; 
+  }
 
+  handleSearchChange=(event)=>{
+    this.setState({search:event.target.value});
   }
 
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
+    const {search}=this.state;
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         <Bio />
+        <input value={search} onChange={this.handleSearchChange} placeholder=" filter"/>
         {posts.filter(this.searchFilter).map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
