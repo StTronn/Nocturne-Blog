@@ -35,16 +35,15 @@ class Layout extends React.Component {
               fontFamily: `Montserrat, sans-serif`,
               marginBottom: rhythm(1.5),
             }}
-            
           >
             <Link
               style={{
                 boxShadow: `none`,
                 textDecoration: `none`,
                 color: `inherit`,
-                marginRight:rhythm(1),
+                marginRight: rhythm(1),
               }}
-              to={`/about`}
+              to={`/me`}
             >
               {"About "}
             </Link>
